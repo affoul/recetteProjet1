@@ -1,0 +1,13 @@
+.testimonial-card {
+  transition: transform 0.3s ease;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.text-pink {
+  color: #e91e63;
+}

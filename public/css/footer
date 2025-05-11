@@ -1,0 +1,49 @@
+/* Dégradé rose-jaune élégant pour le pied de page */
+footer {
+    background: linear-gradient(135deg, #ff66b2, #ffcc00);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+/* Titres */
+footer h5 {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+/* Liens */
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff66b2;
+}
+
+/* Paragraphes */
+footer p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+}
+
+/* Icônes des réseaux sociaux */
+footer .fab {
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer .fab:hover {
+    color: #ff66b2;
+}
+
+/* Lignes séparatrices ou ajustement de texte */
+footer .text-muted {
+    color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,40 @@
+.hero-section {
+    position: relative;
+    height: 90vh; /* Hauteur modérée (ajustez selon vos besoins) */
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    text-align: center;
+    color: white; /* Texte blanc */
+    background-size: cover; /* L'image couvre toute la section */
+    background-position: center; /* Centrer l'image */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Couleur sombre avec transparence pour le contraste */
+    z-index: 1; /* Placer l'overlay sous le texte */
+}
+
+.container {
+    position: relative;
+    z-index: 2; /* Assurez-vous que le texte est au-dessus de l'overlay */
+}
+
+h1, p {
+    margin-bottom: 20px; /* Espacement pour espacer le texte et le bouton */
+}
+
+.btn-primary {
+    background-color: #ff7f50; /* Une couleur vive pour contraster avec le fond sombre */
+    border-color: #ff7f50;
+}
+
+.btn-primary:hover {
+    background-color: #ff4500; /* Une couleur légèrement différente au survol */
+    border-color: #ff4500;
+}

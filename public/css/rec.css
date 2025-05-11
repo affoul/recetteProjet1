@@ -1,0 +1,19 @@
+.bg-light-pink {
+    background-color: #fff0f5;
+  }
+  
+  .text-pink {
+    color: #ff66b2;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  .recipe-card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  

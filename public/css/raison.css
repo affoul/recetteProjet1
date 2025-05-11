@@ -1,0 +1,65 @@
+.why-choose-us {
+  background-color: #f8f9fa; /* Fond clair pour contraster avec les autres sections */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-pink {
+  color: #ff66b2; /* Rose comme couleur principale */
+}
+
+.card {
+  border-radius: 15px; /* Coins arrondis pour un design plus doux */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  border: 2px solid transparent; /* Border initial transparent */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Élévation au survol */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1); /* Ombre plus marquée au survol */
+  border-color: #ff66b2; /* Ajout d'une bordure rose au survol */
+}
+
+.card-body {
+  padding: 30px; /* Plus d'espace à l'intérieur de la carte */
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem; /* Taille du titre */
+  color: #ff66b2;
+}
+
+.card-text {
+  color: #6c757d; /* Gris pour le texte descriptif */
+  font-size: 1rem;
+}
+
+.card-body p {
+  font-size: 1rem;
+}
+
+.card-body .card-title {
+  margin-bottom: 20px;
+}
+
+/* Ajout d'icônes */
+.card-body i {
+  color: #ff66b2;
+  transition: color 0.3s ease;
+}
+
+.card-body i:hover {
+  color: #ff33cc; /* Légère variation de couleur au survol des icônes */
+}
+
+/* Réactivité pour petits écrans */
+@media (max-width: 767px) {
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+  }
+}

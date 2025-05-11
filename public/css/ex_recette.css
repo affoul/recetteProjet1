@@ -1,0 +1,21 @@
+.bg-light-pink {
+  background-color: #ffe6ec; /* doux rose clair */
+}
+
+.text-pink {
+  color: #e91e63; /* rose vif */
+}
+
+.btn-pink {
+  background-color: #e91e63;
+  border: none;
+}
+
+.btn-pink:hover {
+  background-color: #d81b60;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}

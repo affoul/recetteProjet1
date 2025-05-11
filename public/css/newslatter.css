@@ -1,0 +1,58 @@
+.newsletter {
+  background-color: #f8f9fa; /* Fond clair */
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-pink {
+  color: #ff66b2; /* Rose comme couleur principale */
+}
+
+.form-control-lg {
+  height: 50px; /* Champ de saisie plus grand */
+  border-radius: 25px; /* Coins arrondis pour un design plus doux */
+}
+
+.btn-pink {
+  background-color: #ff66b2; /* Couleur du bouton */
+  border-radius: 25px; /* Coins arrondis */
+  color: white; /* Texte blanc */
+  transition: background-color 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #ff33cc; /* Variation de couleur au survol */
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+.newsletter h2 {
+  font-size: 2rem; /* Taille du titre */
+  font-weight: bold;
+}
+
+.newsletter .form-control {
+  border: 2px solid #ff66b2; /* Bordure rose pour le champ d'email */
+}
+
+.newsletter .form-control:focus {
+  border-color: #ff33cc; /* Changement de couleur de la bordure au focus */
+  box-shadow: 0 0 0 0.2rem rgba(255, 102, 178, 0.25); /* Légère ombre au focus */
+}
+
+/* Réactivité pour petits écrans */
+@media (max-width: 767px) {
+  .newsletter h2 {
+    font-size: 1.5rem;
+  }
+
+  .newsletter .form-control-lg {
+    height: 45px; /* Ajustement de la taille du champ sur mobile */
+  }
+
+  .newsletter .btn-lg {
+    padding: 10px 20px; /* Taille du bouton ajustée */
+  }
+}

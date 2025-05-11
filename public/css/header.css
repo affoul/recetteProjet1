@@ -1,0 +1,67 @@
+.site-header {
+    background: linear-gradient(45deg, #ff66b2, #ffffff); /* Dégradé rose-blanc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.site-header .nav-link {
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.site-header .nav-link:hover {
+    color: #ff66b2;
+}
+
+.text-pink {
+    color: #ff66b2;
+}
+
+.btn.text-pink:hover {
+    background-color: #ff66b2;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .site-header .nav, .site-header .btn {
+        display: none;
+    }
+}
+/* Garde le menu affiché même quand la souris va vers les sous-éléments */
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container:hover .dropdown-menu-custom {
+    display: block;
+}
+
+/* Nouveau style du dropdown menu */
+.dropdown-menu-custom {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    min-width: 230px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Espacement + style moderne */
+.dropdown-menu-custom .dropdown-item {
+    color: #333;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    transition: background-color 1s, color 0.2s;
+}
+
+.dropdown-menu-custom .dropdown-item:hover {
+    background-color: #f3f3f3;
+    color: #e91e63; /* rose pour correspondre au thème */
+}
